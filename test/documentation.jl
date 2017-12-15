@@ -9,7 +9,7 @@ result = cd(joinpath(dirname(@__DIR__), "docs")) do
 end
 close(out.in)
 
-output = readstring(out)
+output = read(out, String)
 println(output)
 
 if !result
