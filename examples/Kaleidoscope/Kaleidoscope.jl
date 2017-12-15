@@ -1,6 +1,7 @@
 module Kaleidoscope
 
 import LLVM
+using Unicode
 
 include("lexer.jl")
 include("ast.jl")

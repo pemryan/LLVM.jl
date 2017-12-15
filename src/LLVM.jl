@@ -1,7 +1,7 @@
 __precompile__()
 
 module LLVM
-
+using Unicode
 using Compat
 
 const ext = joinpath(@__DIR__, "..", "deps", "ext.jl")
